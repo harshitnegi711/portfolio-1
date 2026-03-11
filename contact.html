@@ -31,20 +31,27 @@
             <h1>Contact Me</h1>
         </div>
         <div class="inputs">
-            <form class="text-input" action="mailto:harshitnegi909@gmail.com">
-                <label class="label" for="name">Name</label>
-                <input class="in" type="text">
-                <br>
-                <label class="label" for="email">Email</label>
-                <input class="in" type="text">
-                <br>
-                <label class="label " for="number">Mobile no.</label>
-                <input class="in mobile" type="text">
-                <br>
-                <label class="label" for="query">Message</label>
-                <input class="in" type="text">
+<form class="text-input" action="mailto:harshitnegi909@gmail.com" method="post">
 
-            </form>
+  <label class="label" for="name">Name</label>
+  <input class="in" type="text" name="name" id="name" autocomplete="name">
+  <br>
+
+  <label class="label" for="email">Email</label>
+  <input class="in" type="email" name="email" id="email" autocomplete="email">
+  <br>
+
+  <label class="label" for="number">Mobile no.</label>
+  <input class="in mobile" type="tel" name="phone" id="number" autocomplete="tel">
+  <br>
+
+  <label class="label" for="query">Message</label>
+  <textarea class="in" name="message" id="query"></textarea>
+
+  <br>
+  <button type="submit">Send</button>
+
+</form>
         </div>
         <div class="Sumbit"><a href="mailto:harshitnegi909@gmail.com">Sumbit </a></div>
     </div>
